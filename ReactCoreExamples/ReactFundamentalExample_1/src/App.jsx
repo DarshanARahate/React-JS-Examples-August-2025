@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './components/Welcome'
+import Welcome2 from './components/Welcome2'
 import Greet from './components/Greet'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import Greet2 from './components/Greet2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +20,11 @@ function App() {
       <Greet name="Clark" heroName="Superman" >
         <button>Action</button>
       </Greet>
+      <Greet2 name="Bruce 1" heroName="Batman 1" >
+
+      </Greet2>
       <Welcome name="Bruce" heroName="Batman" />
+      <Welcome2 name="Bruce 1" heroName="Batman 1" />
       <Message />
       <Counter />
     </div>
