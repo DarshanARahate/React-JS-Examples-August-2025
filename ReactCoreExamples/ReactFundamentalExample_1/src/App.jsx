@@ -5,6 +5,7 @@ import './App.css'
 import Welcome from './components/Welcome'
 import Greet from './components/Greet'
 import Message from './components/Message'
+import Counter from './components/Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       </Greet>
       <Welcome name="Bruce" heroName="Batman" />
       <Message />
+      <Counter />
     </div>
 
   )
