@@ -6,6 +6,8 @@ import Greet from './components/Greet'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import Greet2 from './components/Greet2'
+import ClassClick from './components/ClassClick'
+import FunctionClick from './components/FunctionClick'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +29,9 @@ function App() {
       <Welcome2 name="Bruce 1" heroName="Batman 1" />
       <Message />
       <Counter />
+
+      <ClassClick />
+      <FunctionClick />
     </div>
 
   )
