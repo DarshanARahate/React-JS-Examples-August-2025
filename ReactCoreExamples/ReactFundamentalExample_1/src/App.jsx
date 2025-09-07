@@ -8,6 +8,7 @@ import Counter from './components/Counter'
 import Greet2 from './components/Greet2'
 import ClassClick from './components/ClassClick'
 import FunctionClick from './components/FunctionClick'
+import BindingEventHandlers from './components/ BindingEventHandlers'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,7 @@ function App() {
 
     <div>
 
-      <Greet name="Bruce" heroName="Batman" >
+      {/* <Greet name="Bruce" heroName="Batman" >
         <p>This is children props</p>
       </Greet>
       <Greet name="Clark" heroName="Superman" >
@@ -31,7 +32,9 @@ function App() {
       <Counter />
 
       <ClassClick />
-      <FunctionClick />
+      <FunctionClick /> */}
+
+      <BindingEventHandlers />
     </div>
 
   )
