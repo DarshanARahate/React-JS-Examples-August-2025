@@ -9,6 +9,9 @@ import Greet2 from './components/Greet2'
 import ClassClick from './components/ClassClick'
 import FunctionClick from './components/FunctionClick'
 import BindingEventHandlers from './components/ BindingEventHandlers'
+import MethodsAsPropsParentClassBase from './components/MethodsAsPropsParentClassBase'
+import MethodsAsPropsParentFunctionalBase from './components/MethodsAsPropsParentFunctionalBase'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +37,10 @@ function App() {
       <ClassClick />
       <FunctionClick /> */}
 
-      <BindingEventHandlers />
+      {/* <BindingEventHandlers /> */}
+
+      <MethodsAsPropsParentClassBase />
+      <MethodsAsPropsParentFunctionalBase />
     </div>
 
   )
