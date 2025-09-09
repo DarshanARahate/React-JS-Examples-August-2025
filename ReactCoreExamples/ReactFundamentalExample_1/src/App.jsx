@@ -11,7 +11,7 @@ import FunctionClick from './components/FunctionClick'
 import BindingEventHandlers from './components/ BindingEventHandlers'
 import MethodsAsPropsParentClassBase from './components/MethodsAsPropsParentClassBase'
 import MethodsAsPropsParentFunctionalBase from './components/MethodsAsPropsParentFunctionalBase'
-
+import ParentLifeCycle from './components/lifecycle/ParentLifeCycle'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,8 +39,11 @@ function App() {
 
       {/* <BindingEventHandlers /> */}
 
-      <MethodsAsPropsParentClassBase />
-      <MethodsAsPropsParentFunctionalBase />
+      {/* <MethodsAsPropsParentClassBase />
+      <MethodsAsPropsParentFunctionalBase /> */}
+
+        <ParentLifeCycle />
+ 
     </div>
 
   )
