@@ -4,7 +4,7 @@
 function FunctionClick() {
 
     function clickHandler() {
-       alert("Hello! This is an alert message.");
+        alert("Hello! This is an alert message.");
     }
 
     return (
